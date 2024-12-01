@@ -36,5 +36,5 @@ jobs:
           server: ${{ secrets.FTP_HOST }} # Hostinger FTP server
           username: ${{ secrets.FTP_USERNAME }} # FTP username
           password: ${{ secrets.FTP_PASSWORD }} # FTP password
-          local-dir: ./build/ # The React build directory
+          local-dir: ./dist/ # The React build directory
           server-dir: /public_html/ # The Hostinger web root directory
